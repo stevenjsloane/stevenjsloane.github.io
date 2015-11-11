@@ -1,0 +1,36 @@
+
+* {
+  background : rgb(252, 252, 252);
+}
+
+.wrap {
+  width  : 88%;
+  margin : 0 auto;
+}
+
+h1, h2, h3, h4{
+  font-family : "Lato", Arial, Helvetica, sans-serif;
+  font-weight : 300;
+  color       : #2E3030;
+}
+
+p, a {
+  font-family    : "Lato", Arial;
+  font-size      : 14px;
+  color          : #595C5D;
+  letter-spacing : 0.4px;
+  word-spacing   : 0.5px;
+}
+
+.center {
+  text-align : center;
+}
+
+a {
+  text-decoration : none;
+  
+
+  &:hover {
+    color : orange;
+  }
+}

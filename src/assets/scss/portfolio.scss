@@ -1,0 +1,72 @@
+
+// portfolio gallery
+.portfolio {
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  justify-content: flex-start;
+}
+
+.portfolio-item{
+  display        : flex;
+  width          : 30%;
+  flex-direction : column;
+  margin-right: 2%;
+
+  .port-thumb {
+    width : 100%;
+  }  
+
+  @media (max-width: 750px) {
+    width: 48%;
+  }
+
+    @media (max-width: 530px) {
+    width: 100%;
+    margin-right: 0;
+  }
+
+
+}
+
+
+.portfolio-title{
+  text-align : center;
+  text-transform: uppercase;
+  font-weight: 300;
+  
+
+  a {
+    text-decoration : none;
+  }
+}
+
+//portfolio post type
+.post-container{
+  display        : flex;
+  padding-bottom : 50px;
+  flex-direction : column;
+}
+
+.post {
+  display        : flex;
+  flex-direction : row;
+}
+
+.piece-sidebar {
+  width       : 250px;
+  margin-left : 5%;
+}
+
+.piece-content {
+  width : 70%;
+  color : red;
+}
+
+.piece-title {
+  text-transform : Uppercase;
+}
+
+.piece-desc {
+  line-height : 2;
+}
